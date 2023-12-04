@@ -1,7 +1,7 @@
 ---
 title: 🟠 Structural Directive
 description: Challenge 6 is about creating a structural directive to handle permissions
-author: Thomas Laforge
+author: thomas-laforge
 challengeNumber: 6
 command: angular-permissions
 blogLink: https://medium.com/@thomas.laforge/create-a-custom-structural-directive-to-manage-permissions-like-a-pro-11a1acad30ad
@@ -33,7 +33,7 @@ In LoginComponent, you will find 6 buttons corresponding at 6 differents users.
 
 ## Step 1
 
-In **InformationComponent**, display the correct piece of information for each roles.
+In **InformationComponent**, display the correct piece of information for each role.
 
 ### Constraints:
 

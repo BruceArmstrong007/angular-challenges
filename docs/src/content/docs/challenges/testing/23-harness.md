@@ -1,7 +1,7 @@
 ---
 title: 🟢 Harness
 description: Challenge 23 is about testing with component harnesses
-author: Thomas Laforge
+author: thomas-laforge
 challengeNumber: 23
 command: testing-harness
 sidebar:
@@ -20,5 +20,5 @@ The goal is to test the functionality of `child.component.ts`. I have prepared a
 
 **Note:** You are welcome to use Testing Library if you wish.
 
-Documentation for CDK Component Harness is [here](https://material.angular.io/cdk/test-harnesses/overview#api-for-test-authors)
-Documentation for Angular Material component is [here](https://material.angular.io/components/button/overview)
+Documentation for CDK Component Harness is [here](https://material.angular.io/cdk/test-harnesses/overview#api-for-test-authors).
+Documentation for Angular Material component is [here](https://material.angular.io/components/button/overview).

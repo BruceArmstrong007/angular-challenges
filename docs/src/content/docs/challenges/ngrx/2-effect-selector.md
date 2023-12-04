@@ -1,7 +1,7 @@
 ---
 title: 🟠 Effect vs Selector
 description: Challenge 2 is about learning the difference between effects and selectors in NgRx
-author: Thomas Laforge
+author: thomas-laforge
 challengeNumber: 2
 command: ngrx-effect-selector
 blogLink: https://medium.com/@thomas.laforge/ngrx-effect-vs-reducer-vs-selector-58337ab59043
@@ -19,7 +19,7 @@ For this exercice, you will have a dashboard of activities displaying the name, 
 
 In NgRx, **selectors** is a very powerful tool often **misused**. You should use them as soon as you need to transform an already existing data in the store.
 
-- You shouldn't store **derived state**. This is error prone because when your data change, you will have to change it at multiple places => you should have only one place of truth with that data, and every transformation should be done in a **selector**.
+- You shouldn't store **derived state**. This is error prone because when your data changes, you will have to change it at multiple places => you should have only one place of truth with that data, and every transformation should be done in a **selector**.
 
 - Inside a component, you shouldn't transform a selector (using map operator), or you shouldn't have to call a selector from a function in your view. The useful data for a component should be done in a **selector**.
 
